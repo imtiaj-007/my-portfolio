@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2b2b2b;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1f1f1f;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #121212;
+}
+
 .App {
   text-align: center;
   font-family: "Quicksand", sans-serif !important;
@@ -93,6 +110,35 @@ h4 {
 
 #achievements a:hover {
   color: rgb(0, 0, 0);
+}
+
+.card {
+  justify-content: center;
+  padding: 8px;
+}
+
+.card-body {
+  padding: 0.4em;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.card-footer a {
+  width: 200px;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card-footer h4 {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
 }
 
 .test {

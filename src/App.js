@@ -14,8 +14,8 @@ function App() {
             <Home/>
             <Education/>
             <Achievements/>
-            <Skills/>
             <Projects/>
+            <Skills/>
             <Footer/>
         </div>
     );
