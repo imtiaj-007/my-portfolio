@@ -6,16 +6,16 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #2b2b2b;
+  background-color: #019d6e;
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #1f1f1f;
+  background-color: #01d797;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #121212;
+  background-color: #0e1630;
 }
 
 .App {
@@ -33,7 +33,7 @@
   font-size: 35px;
 }
 
-.nav-items a, #education p {
+.nav-items a, #education p, tbody td {
   font-size: 17px;
   font-weight: 600;
   color: rgb(128 141 173);
@@ -57,11 +57,12 @@ a {
   font-size: 32px;
 }
 
-h4 {
+h4, thead td {
   font-weight: 400;
   font-size: 20px;
   color: white;
 }
+
 
 .home p, li {
   font-size: 17px;
@@ -141,8 +142,14 @@ h4 {
   margin: 0;
 }
 
+.table>:not(caption)>*>* {
+  background-color: #0e1630 !important;
+}
+
+
+
 .test {
-  color: rgb(31, 32, 52);
+  color: #0c111e;
 }
 
 
