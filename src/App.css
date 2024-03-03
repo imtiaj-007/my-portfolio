@@ -3,10 +3,10 @@
 
 .App {
   text-align: center;
+  font-family: "Quicksand", sans-serif !important;
 }
 
 .navbar {
-  font-family: "Quicksand", sans-serif !important;
   font-weight: 400;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
   font-size: 35px;
 }
 
-.nav-items a {
+.nav-items a, #education p {
   font-size: 17px;
   font-weight: 600;
   color: rgb(128 141 173);
@@ -35,15 +35,46 @@ a {
   text-align: left;
 }
 
-.home h3 {
+.home h3, #education h3 {
   font-weight: 400;
   font-size: 32px;
 }
 
-.home p {
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
+.home p, li {
   font-size: 17px;
   font-weight: 400;
   color: rgb(128 141 173);
+}
+
+.btn {
+  background-color: rgb(220, 13, 13);
+  border: none !important;
+}
+
+.btn:hover {
+  background-color: #019d6e !important;
+}
+
+.edu {
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 18px;
+}
+
+.edu h4, .edu p, .edu ul {
+  margin: 0.4rem !important;
+}
+
+.CGPA {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: disc;
 }
 
 .test {
