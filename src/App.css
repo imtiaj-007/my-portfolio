@@ -31,7 +31,7 @@ a {
   color: black;
 }
 
-.home {
+.home, #achievements {
   text-align: left;
 }
 
@@ -75,6 +75,24 @@ h4 {
   display: flex;
   justify-content: space-around;
   list-style-type: disc;
+}
+
+#achievements .btn {
+  width: 300px;
+  background-color: #019d6e;
+}
+
+#achievements .btn:hover {
+  font-size: 1.01rem;
+  font-weight: 500;
+}
+
+#achievements a {
+  color: white;
+}
+
+#achievements a:hover {
+  color: rgb(0, 0, 0);
 }
 
 .test {
