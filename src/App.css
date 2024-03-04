@@ -57,10 +57,16 @@ a {
   font-size: 32px;
 }
 
-h4, thead td {
-  font-weight: 400;
+h4 {
+  font-weight: 500;
   font-size: 20px;
   color: white;
+}
+
+thead td {
+  font-weight: 400;
+  font-size: 20px;
+  color: white !important;
 }
 
 
@@ -144,12 +150,24 @@ h4, thead td {
 
 .table>:not(caption)>*>* {
   background-color: #0e1630 !important;
+  color: rgb(128 141 173);
+}
+
+.prev-icon, .next-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.prev-button, .next-button {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
 }
 
 
-
 .test {
-  color: #0c111e;
+  color: #00e056;
 }
 
 

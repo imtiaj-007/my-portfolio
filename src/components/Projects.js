@@ -2,6 +2,9 @@ import React from 'react'
 import music from '../images/music-player.png'
 import newsdesk from '../images/newsdesk.png'
 import portfolio from '../images/portfolio.png'
+import prev from '../images/prev-button.svg'
+import next from '../images/next-button.svg'
+
 
 const Projects = () => {
     return (
@@ -49,11 +52,11 @@ const Projects = () => {
                             </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="prev-icon" aria-hidden="true"><div className="prev-button"><img src={prev} alt="prev-button"/></div></span>
                             <span className="visually-hidden">Previous</span>
                         </button>
                         <button className="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="next-icon" aria-hidden="true"><div className="next-button"><img src={next} alt="next-button"/></div></span>
                             <span className="visually-hidden">Next</span>
                         </button>
                     </div>
