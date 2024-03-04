@@ -22,7 +22,7 @@ const Footer = () => {
                     <div className="contact col-7 p-2">
                         <form>
                             <fieldset className="border rounded">
-                                <legend className="float-none">Contact Me</legend>
+                                <legend className="float-none">Leave a Message</legend>
                                 <div class="mb-3">
                                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" />
                                 </div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import music from '../images/music-player.png'
-import newsdesk from '../images/newsdesk.png'
-import portfolio from '../images/portfolio.png'
+import music from '../personal/music-player.png'
+import newsdesk from '../personal/newsdesk.png'
+import portfolio from '../personal/portfolio.png'
 import prev from '../images/prev-button.svg'
 import next from '../images/next-button.svg'
 
@@ -22,7 +22,7 @@ const Projects = () => {
                                     </div>
                                     <div className="card-footer">
                                         <h4 className="card-title">Music Player Clone [ Using HTML, CSS, JS ]</h4>
-                                        <a href="https://music-player-clone.infinityfreeapp.com/?i=1" className="btn btn-primary">Visit Site</a>
+                                        <a href="https://music-player-clone.infinityfreeapp.com/?i=1" target="_blank" rel="noreferrer" className="btn btn-primary">Visit Site</a>
                                     </div>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ const Projects = () => {
                                     </div>
                                     <div className="card-footer">
                                         <h4 className="card-title">NewsDesk [ Using React Js, GNews API, Bootstrap ]</h4>
-                                        <a href="https://news-desk.netlify.app/" className="btn btn-primary">Visit Site</a>
+                                        <a href="https://news-desk.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-primary">Visit Site</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                                     </div>
                                     <div className="card-footer">
                                         <h4 className="card-title">My Portfolio Site [ Using React Js, Bootstrap ]</h4>
-                                        <a href="#todo" className="btn btn-primary">Visit Site</a>
+                                        <a href="#todo" target="_blank" rel="noreferrer" className="btn btn-primary">Visit Site</a>
                                     </div>
                                 </div>
                             </div>
