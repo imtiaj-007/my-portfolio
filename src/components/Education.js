@@ -5,14 +5,14 @@ import hat from '../images/hat.svg'
 const Education = () => {
     return (
         <div className="container-fluid" id='education' style={{ backgroundColor: "#0e1630", height: "100vh", paddingTop: "15vh" }}>
-            <div className="container p-4">
+            <div className="container edu-container p-4">
                 <h3 className="text-center mb-5">Education</h3>
                 <div className="row flex-column g-2">
 
                     <div className="col-sm">
                         <div className="container d-flex">
-                            <div className="row w-75 m-auto align-items-center edu">
-                                <div className="col-2">
+                            <div className="row edu">
+                                <div className="col-2 city">
                                     <i><img src={city} alt="city" /></i>
                                     <p>Kolkata</p>
                                 </div>
@@ -35,8 +35,8 @@ const Education = () => {
 
                     <div className="col-sm">
                         <div className="container d-flex">
-                            <div className="row w-75 m-auto align-items-center edu">
-                                <div className="col-2">
+                            <div className="row edu">
+                                <div className="col-2 city">
                                     <i><img src={city} alt="city" /></i>
                                     <p>Kolkata</p>
                                 </div>
@@ -59,8 +59,8 @@ const Education = () => {
 
                     <div className="col-sm">
                         <div className="container d-flex">
-                            <div className="row w-75 m-auto align-items-center edu">
-                                <div className="col-2">
+                            <div className="row edu">
+                                <div className="col-2 city">
                                     <i><img src={city} alt="city" /></i>
                                     <p>Kolkata</p>
                                 </div>
