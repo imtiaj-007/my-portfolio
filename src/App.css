@@ -63,6 +63,12 @@ h4 {
   color: white;
 }
 
+h5 {
+  font-weight: 400;
+  font-size: 19px;
+  color: white;
+}
+
 thead td {
   font-weight: 400;
   font-size: 20px;
@@ -165,9 +171,51 @@ thead td {
   height: 70%;
 }
 
+.contact {
+  display: flex;
+  justify-content: flex-end;
+}
+
+form {
+  width: 75%;
+}
+
+/* .form-control {
+  background-color: #162042;
+  border: none !important;
+} */
+
+input, textarea{
+  background-color:#1c2851 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #ffffff !important;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ffffff !important;
+}
+
+.border {
+  padding: 10px 15px;
+  border-color: #01d293 !important;
+}
+
+legend {
+  width: 150px;
+  color: #01d293;
+}
+
+.location, .mail {
+  width: 75%;
+  justify-content: space-evenly;
+  margin-bottom: 7px;
+}
 
 .test {
-  color: #00e056;
+  color: #040c27;
 }
 
 

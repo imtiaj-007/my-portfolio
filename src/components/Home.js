@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from '../images/profile.jpg'
-
+import resume from '../cResume.pdf'
 
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
                         <p>I'm an Intermediate-Level Developer Specializing in the MERN Stack. I am sharpening my expertise in the MERN stack - MongoDB, Express.js, React.js, and Node.js, to deliver sophisticated, scalable, and dynamic web applications.
                             Good understanding of DSA and OOPs. Proficient in C++, Java and Python. </p><br/>
                         
-                        <div className="btn btn-secondary" style={{backgroundColor: "rgb(220, 13, 13)"}}><a href="#resume" target="_blank" style={{color: 'white'}}>View Resume</a></div>
+                        <div className="btn btn-secondary" style={{backgroundColor: "rgb(220, 13, 13)"}}><a href={resume} target="_blank" rel="noreferrer" style={{color: 'white'}}>View Resume</a></div>
 
                     </div>
                     {/* <div className="col-1"></div> */}

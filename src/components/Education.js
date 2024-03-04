@@ -20,7 +20,7 @@ const Education = () => {
                                     <h4>Budge Budge Institute of Technology</h4>
                                     <p>B. Tech in Information Technology</p>
                                     <ul className='CGPA'>
-                                        <li>2022 - Present</li>
+                                        <li>2022 - 2025</li>
                                         <li>Percentage : None</li>
                                         <li>OGPA : None</li>
                                     </ul>

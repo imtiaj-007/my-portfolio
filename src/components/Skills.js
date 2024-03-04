@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div className="container-fluid" id='skills' style={{ backgroundColor: "#0e1630", height: "50vh", paddingTop: "15vh" }}>
+        <div className="container-fluid" id='skills' style={{ backgroundColor: "#0e1630", height: "70vh", paddingTop: "15vh" }}>
             <div className="container d-flex flex-column align-items-center p-4">
                 <h3 className="text-center mb-5">Skills</h3>
                 <div className="d-flex w-100">
