@@ -21,8 +21,8 @@ const Education = () => {
                                     <p>B. Tech in Information Technology</p>
                                     <ul className='CGPA'>
                                         <li>2022 - 2025</li>
-                                        <li>Percentage : None</li>
-                                        <li>OGPA : None</li>
+                                        <li>Percentage : --</li>
+                                        <li>OGPA : --</li>
                                     </ul>
                                 </div>
                                 <div className="col-2">
@@ -70,7 +70,7 @@ const Education = () => {
                                     <ul className='CGPA'>
                                         <li>2017 - 2019</li>
                                         <li>Percentage : 65.2%</li>
-                                        <li>OGPA : None</li>
+                                        <li>OGPA : --</li>
                                     </ul>
                                 </div>
                                 <div className="col-2">

@@ -8,7 +8,7 @@ const Achievements = () => {
         <div className="container-fluid" id='achievements' style={{ backgroundColor: "#0e1630", height: "100vh", paddingTop: "15vh" }}>
             <div className="container p-4">
                 <h3 className="text-center mb-5">Achievements</h3>
-                <div className="row g-2 p-3 align-items-center">
+                <div className="row g-2 p-3 align-items-center achievements">
                     <div className="col-1"></div>
                     <div className="col-6">
                         <ul>
@@ -26,7 +26,7 @@ const Achievements = () => {
 
                     <div className="col-1"></div>
                     <div className="col-4 flex-end">
-                        <div className="row flex-column g-4">
+                        <div className="row flex-column c-profiles" style={{ gap: "1.5rem"}}>
                             <div className="col-sm">
                                 <div className="btn btn-secondary">
                                     <a target='_blank' rel="noreferrer" href='https://leetcode.com/imtiaj007/'>

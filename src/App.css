@@ -275,17 +275,21 @@ legend {
   .col-5 {
     width: 70%;
   }
-  .col-7 {
+  .col-7, .col-6, .col-4 {
     width: 100%;
   }
 
-  .home h3 {
-    font-size: 25px;
+  #home h3, #education h3, #achievements h3 {
+    font-weight: 400;
+    font-size: 25px !important;
   }
   .home p {
     font-size: 15px;
   }
 
+  /* #education {
+    padding-top: 0 !important;
+  }   */
   .edu-container {
     padding: 0 !important;
   }
@@ -323,6 +327,27 @@ legend {
     flex-direction: row;
     gap: 10px;
   }
+  .col-1 {
+    display: none;
+  }
+  .row {
+    padding: 0 !important;
+  }
+  .achievements {
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .achievements .col-4 {
+    display: flex;
+    justify-content: center;
+  }
+  .c-profiles {
+    gap: 12px !important;
+  }
+
+  
 
 }
 
