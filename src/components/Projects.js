@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="container-fluid" id='projects' style={{ backgroundColor: "#0e1630", height: "100vh", paddingTop: "12vh" }}>
             <div className="container d-flex flex-column align-items-center p-4">
                 <h3 className="text-center mb-4">Projects</h3>
-                <div className="d-flex w-75">
+                <div className="d-flex w-75 carousel-container">
                     <div id="carousel" className="carousel slide m-auto" data-bs-ride="carousel">
                         <div className="carousel-inner">
 

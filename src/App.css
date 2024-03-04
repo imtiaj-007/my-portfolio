@@ -33,7 +33,7 @@
   font-size: 35px;
 }
 
-.nav-items a, #education p, tbody td {
+.nav-items a, #education p, #skills li {
   font-size: 17px;
   font-weight: 600;
   color: rgb(128 141 173);
@@ -69,7 +69,7 @@ h5 {
   color: white;
 }
 
-thead td {
+#skills h4 {
   font-weight: 400;
   font-size: 20px;
   color: white !important;
@@ -174,6 +174,19 @@ thead td {
   height: 70%;
 }
 
+#skills .row {
+  width: 80%;
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+#skills li, #skills ul {
+  margin: 5px 12px;
+}
+
+
 .contact {
   display: flex;
   justify-content: flex-end;
@@ -238,10 +251,17 @@ legend {
   width: 70%;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 900px) {
   /* #navItems {
     background-color: #000000 !important;
   } */
+  .navbar {
+    padding: 20px 5px !important;
+  }
+  .navbar-brand {
+    font-size: 30px;
+    margin-left: 10px !important;
+  }
   .nav-div {
     padding: 10px;
     width: 100%;
@@ -287,9 +307,7 @@ legend {
     font-size: 15px;
   }
 
-  /* #education {
-    padding-top: 0 !important;
-  }   */
+
   .edu-container {
     padding: 0 !important;
   }
@@ -347,8 +365,53 @@ legend {
     gap: 12px !important;
   }
 
-  
 
+  #projects {
+    height: 70vh !important;
+    padding-top: 25vh !important;
+  }
+  #projects .container {
+    padding: 0.5rem !important;
+  }
+  .carousel-container {
+    width: 95% !important;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-footer {
+    padding: 5px 8px;
+  }
+  .card-footer a {
+    width: 200px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .card-footer h4 {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+  }
+
+
+  #skills .container {
+    padding: 0 !important;
+  }
+  #skills .row {
+    width: 100%;
+  }
+  #skills .ele-1 {
+    width: 42%;
+    padding: 0;
+  }
+  #skills .ele-2 {
+    width: 58%;
+    padding: 0;
+  }
+  #skills h4 {
+    font-size: 17px;
+  }
 }
 
 .test {
