@@ -12,14 +12,15 @@ const Footer = () => {
         const user_name = document.getElementById("nameInput").value;
         const user_email = document.getElementById("emailInput").value;
         const message = document.getElementById("messageInput").value;
+
+        document.getElementById("contactForm").reset();
         
         const data = {
             user_name,
             user_email,
             message
         }
-        // console.log(data);
-
+        
         emailjs
             .send('service_j994468', 'template_mkqjuwh', data, {
                 publicKey: 'wvs7c92lJvo1Xq_zz',
@@ -52,7 +53,7 @@ const Footer = () => {
                     </div>
 
                     <div className="contact col-7 p-2">
-                        <form onSubmit={sendMessage}>
+                        <form id='contactForm' onSubmit={sendMessage}>
                             <fieldset className="border rounded">
                                 <legend className="float-none">Leave a Message</legend>
                                 <div className="mb-3">
