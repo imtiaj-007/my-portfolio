@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from '../personal/profile.jpg'
-import resume from '../personal/newResume.pdf'
+import resume from '../personal/Imtiaj_Resume.pdf'
 
 
 const Home = () => {
