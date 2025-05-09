@@ -5,21 +5,22 @@ import arrow from '../images/right-arrow.svg'
 const Achievements = () => {
     return (
 
-        <div className="container-fluid" id='achievements' style={{ backgroundColor: "#0e1630", height: "100vh", paddingTop: "15vh" }}>
+        <div className="container-fluid" id='achievements' style={{ backgroundColor: "#0e1630", minHeight: "75vh", paddingTop: "15vh" }}>
             <div className="container p-4">
                 <h3 className="text-center mb-5">Achievements</h3>
                 <div className="row g-2 p-3 align-items-center achievements">
                     <div className="col-1"></div>
                     <div className="col-6">
                         <ul>
-                            <li>500+ problems solved in Leetcode</li>
-                            <li>550+ problems solved in Geeksforgeeks</li>
+                            <li>750+ problems solved in Leetcode</li>
+                            <li>700+ problems solved in Geeksforgeeks</li>
                             <li>350+ problems solved in Codechef</li><br />
-                            <li>Among Top 10 coders in Geeksforgeeks from my Institute.</li>
+                            <li>Secured 3rd place in Inter-College Coding Competition ‘League of Errors’ is association with Coding Ninjas</li>
                             <li>Secured 57th rank in CodingNinjasStudio Weekend Contest 88</li>
                             <li>Secured 121 rank in GFG Weekly Coding Contest 129</li>
                             <li>Secured 335 Global rank in Codechef Starters 99 Contest</li><br />
-                            <li>Highest Leetcode Contest Rating 1695 ( Top 13.02 % )</li>
+                            <li>Among Top 5 coders in Geeksforgeeks from my Institute.</li>
+                            <li>Highest Leetcode Contest Rating 1695 ( Top 13.16 % )</li>
                             <li>CodingNinjasStudio Weekend Contest rating 3775 ( Better than 99% )</li>
                         </ul>
                     </div>

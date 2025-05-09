@@ -1,6 +1,7 @@
 import './App.css';
 import Achievements from './components/Achievements';
 import Education from './components/Education';
+import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
@@ -13,6 +14,7 @@ function App() {
             <Navbar/>
             <Home/>
             <Education/>
+            <Experience />
             <Achievements/>
             <Projects/>
             <Skills/>

@@ -2,18 +2,32 @@ import React from 'react'
 import music from '../personal/music-player.png'
 import newsdesk from '../personal/newsdesk.png'
 import cleanEnergy from '../personal/clean-energy.png'
+import objectVision from '../personal/object-vision.png'
 import prev from '../images/prev-button.svg'
 import next from '../images/next-button.svg'
 
 
 const Projects = () => {
-    return (
-        <div className="container-fluid" id='projects' style={{ backgroundColor: "#0e1630", height: "100vh", paddingTop: "12vh" }}>
+
+    return ( 
+        <section className="container-fluid" id='projects' style={{ backgroundColor: "#0e1630", minHeight: "75vh", paddingTop: "12vh" }} aria-label='project-section'>
             <div className="container d-flex flex-column align-items-center p-4">
                 <h3 className="text-center mb-4">Projects</h3>
                 <div className="d-flex w-75 carousel-container">
                     <div id="carousel" className="carousel slide m-auto" data-bs-ride="carousel">
                         <div className="carousel-inner">
+
+                            <div className="carousel-item active">
+                                <div className="card d-block w-100">
+                                    <div className="card-body">
+                                        <img src={objectVision} className="card-img-top" alt="portfolio" />
+                                    </div>
+                                    <div className="card-footer">
+                                        <h4 className="card-title">Object Vision [ Using MERN, Next.js, FastAPI ]</h4>
+                                        <a href="https://object-vision-frontend.vercel.app" target="_blank" rel="noreferrer" className="btn btn-primary">Visit Site</a>
+                                    </div>
+                                </div>
+                            </div>
 
                             <div className="carousel-item">
                                 <div className="card d-block w-100">
@@ -27,7 +41,7 @@ const Projects = () => {
                                 </div>
                             </div>
 
-                            <div className="carousel-item active">
+                            <div className="carousel-item">
                                 <div className="card d-block w-100">
                                     <div className="card-body">
                                         <img src={music} className="card-img-top" alt="music-player" />
@@ -45,7 +59,7 @@ const Projects = () => {
                                         <img src={newsdesk} className="card-img-top" alt="newsdesk" />
                                     </div>
                                     <div className="card-footer">
-                                        <h4 className="card-title">NewsDesk [ Using React Js, GNews API, Bootstrap ]</h4>
+                                        <h4 className="card-title">NewsDesk [ Using React Js, GNews API ]</h4>
                                         <a href="https://news-desk.netlify.app" target="_blank" rel="noreferrer" className="btn btn-primary">Visit Site</a>
                                     </div>
                                 </div>
@@ -63,7 +77,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </section >
     )
 }
 

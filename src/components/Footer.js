@@ -6,7 +6,12 @@ import mail from '../images/mail.svg'
 import send from '../images/send.svg'
 
 const Footer = () => {
+    const service_key = process.env.REACT_APP_SERVICE_KEY;
+    const email_template = process.env.REACT_APP_EMAIL_TEMPLATE;
+    const public_key = process.env.REACT_APP_PUBLIC_KEY;
+
     const sendMessage = (e) => {
+
         e.preventDefault();
         
         const user_name = document.getElementById("nameInput").value;
@@ -22,8 +27,8 @@ const Footer = () => {
         }
         
         emailjs
-            .send('service_j994468', 'template_mkqjuwh', data, {
-                publicKey: 'wvs7c92lJvo1Xq_zz',
+            .send(service_key, email_template, data, {
+                publicKey: public_key,
             })
             .then(
                 () => {
@@ -31,13 +36,13 @@ const Footer = () => {
                     alert("Mail sent...!");
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    console.log('FAILED...', error);
                 },
             );
 
     }
     return (
-        <div className="container-fluid" id='footer' style={{ backgroundColor: "#040c27", minHeight: "50vh" }}>
+        <section className="container-fluid" id='footer' style={{ backgroundColor: "#040c27", minHeight: "50vh" }} aria-label='footer-section'>
             <div className="container w-75 p-4">
                 <div className="row" style={{ padding: "15px" }}>
 
@@ -77,7 +82,7 @@ const Footer = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

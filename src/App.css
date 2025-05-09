@@ -33,7 +33,26 @@
   font-size: 35px;
 }
 
-.nav-items a, #education p, #skills li {
+.nav-items li {
+    list-style-type: none;
+}
+
+.nav-item .underline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #01d293;
+  bottom: -12px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-item a.active .underline {
+  opacity: 1;
+}
+
+.nav-items a, #education p, #experience p, #skills li {
   font-size: 17px;
   font-weight: 600;
   color: rgb(128 141 173);
@@ -75,7 +94,6 @@ h5 {
   color: white !important;
 }
 
-
 .home p, li {
   font-size: 17px;
   font-weight: 400;
@@ -91,7 +109,7 @@ h5 {
   background-color: #019d6e !important;
 }
 
-.edu {
+.edu, .exp {
   width: 75%;
   margin: auto;
   align-items: center;
@@ -100,7 +118,7 @@ h5 {
   border-radius: 18px;
 }
 
-.edu h4, .edu p, .edu ul {
+.edu h4, .edu p, .edu ul, .exp h4, .exp p, .exp ul {
   margin: 0.4rem !important;
 }
 
@@ -257,7 +275,7 @@ legend {
 } */
 
 .nav-div {
-  width: 70%;
+  width: 85%;
 }
 
 @media (max-width: 900px) {
@@ -317,15 +335,17 @@ legend {
   }
 
 
-  .edu-container {
+  .edu-container, .exp-container {
     padding: 0 !important;
   }
-  .edu {
+  .edu, .exp {
     width: 100%;
-    flex-wrap: nowrap;
+}
+.edu {
+    flex-wrap: nowrap;    
     flex-direction: column-reverse;
   }
-  .row .edu {
+  .row .edu, .row .exp {
     padding: 7px 0px !important;
   }
   .city {
@@ -392,6 +412,7 @@ legend {
     padding: 0;
   }
   .card-footer {
+    display: block;
     padding: 5px 8px;
   }
   .card-footer a {
@@ -401,9 +422,9 @@ legend {
     margin: 0;
   }
   .card-footer h4 {
-    font-weight: 400;
-    font-size: 15px;
-    margin: 0;
+      font-weight: 400;
+      font-size: 15px;
+      margin: 12px 0;
   }
 
 

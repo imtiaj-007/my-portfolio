@@ -3,7 +3,7 @@ import NavItems from './NavItems'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg fixed-top p-4" style={{ backgroundColor: "#0e1630" }} data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg fixed-top p-4 pb-0" style={{ backgroundColor: "#0e1630" }} data-bs-theme="dark">
             <div className="container-fluid">
 
                 <a className="navbar-brand ms-5" href="/">SK Imtiaj Uddin</a>
